@@ -6,8 +6,8 @@ type Post {
 }
 
 input PostInput {
-  firstName: String!
-  lastName: String!
+  title: String!
+  content: String!
   author: ID!
 }
 

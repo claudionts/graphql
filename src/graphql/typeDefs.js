@@ -3,7 +3,5 @@ import path from 'path';
 
 const typesArr = fileLoader(path.join(__dirname, 'modules', '**', '*.gql'));
 const typeDefs = mergeTypes(typesArr);
-
-console.log(typeDefs);
   
 export default typeDefs;
